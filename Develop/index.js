@@ -41,6 +41,7 @@ const questions = [
          
         },
         
+
         {   type: 'input',
             message: 'What license they would you  like to use? (ex: MIT) Write "none" if you do not wish to use a license type ',
             name: 'license',
@@ -74,8 +75,8 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
-}
+    inquirer.prompt(questions).then((response)=>{
+function writetoFile('#' + response.repoName )+
 
 // function call to initialize program
 init();
