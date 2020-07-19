@@ -76,7 +76,7 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then((response)=>{
-function writetoFile('#' + response.repoName )+
+function writetoFile('#' + response.repoName ) + '\n', 
 
 // function call to initialize program
 init();
